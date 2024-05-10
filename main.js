@@ -4,7 +4,12 @@ import firebase from 'firebase/app';
 import 'firebase/firestore';
 
 const firebaseConfig = {
-  // your config
+  apiKey: "AIzaSyDUKzB1mMjLbtt1ad9Ne3hKF3UvrwiIo-U",
+  authDomain: "onlinecall-a6bb1.firebaseapp.com",
+  projectId: "onlinecall-a6bb1",
+  storageBucket: "onlinecall-a6bb1.appspot.com",
+  messagingSenderId: "257524818585",
+  appId: "1:257524818585:web:365cc388603829772d0e08"
 };
 
 if (!firebase.apps.length) {
